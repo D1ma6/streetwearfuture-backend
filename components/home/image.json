@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_image_images",
+  "info": {
+    "name": "image",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

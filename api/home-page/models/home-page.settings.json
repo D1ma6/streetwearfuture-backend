@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.image"
+    },
+    "products": {
+      "collection": "product"
+    },
+    "FirstLook": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.looks"
+    },
+    "SecondLook": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.looks"
+    },
+    "FirstLookImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "SecondLookImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "FirstLookTitle": {
+      "type": "string"
+    },
+    "SecondLookTitle": {
+      "type": "string"
+    }
+  }
+}

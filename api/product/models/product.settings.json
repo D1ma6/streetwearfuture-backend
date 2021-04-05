@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Title",
+      "maxLength": 60
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Unisex"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 130
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.image",
+      "required": true
+    },
+    "sizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.sizes"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.colors"
+    },
+    "style": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "weistType": {
+      "type": "string"
+    },
+    "lengths": {
+      "type": "string"
+    },
+    "closureType": {
+      "type": "string"
+    },
+    "fashion": {
+      "type": "string"
+    },
+    "fitType": {
+      "type": "string"
+    },
+    "thickness": {
+      "type": "string"
+    },
+    "fabricType": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "onSale": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "newPrice": {
+      "type": "decimal"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Beanies",
+        "Caps",
+        "Hoodies",
+        "Jackets",
+        "Jeans",
+        "Shorts",
+        "Socks",
+        "Sweatpants",
+        "Sweatshirts",
+        "Trousers",
+        "TShirts",
+        "Boots",
+        "Sandals",
+        "Shoes",
+        "Sliders",
+        "Slippers",
+        "Trainers",
+        "Accessories",
+        "Bags",
+        "Belts",
+        "Masks",
+        "Gloves",
+        "Laces",
+        "Scarves"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_home_categories",
+  "info": {
+    "name": "category",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Beanies",
+        "Caps",
+        "Hoodies",
+        "Jackets",
+        "Jeans",
+        "Shorts",
+        "Socks",
+        "Sweatpants",
+        "Sweatshirts",
+        "Trousers",
+        "TShirts",
+        "Boots",
+        "Sandals",
+        "Shoes",
+        "Sliders",
+        "Slippers",
+        "Trainers",
+        "Accessories",
+        "Bags",
+        "Belts",
+        "Masks",
+        "Gloves",
+        "Laces",
+        "Scarves"
+      ]
+    }
+  }
+}

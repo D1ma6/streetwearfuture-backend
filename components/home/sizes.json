@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_sizes",
+  "info": {
+    "name": "sizes",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve"
+      ]
+    },
+    "shoeSize": {
+      "type": "string"
+    }
+  }
+}
