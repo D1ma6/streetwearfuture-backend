@@ -1,7 +1,7 @@
 module.exports = ({ env }) => {
   if (env("NODE_ENV") === "production") {
     return {
-      uload: {
+      upload: {
         provider: "aws-s3",
         providerOptions: {
           accessKeyId: env("AWS_ACCESS_KEY_ID"),
