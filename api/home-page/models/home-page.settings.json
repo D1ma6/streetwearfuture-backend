@@ -56,6 +56,16 @@
     },
     "SecondLookTitle": {
       "type": "string"
+    },
+    "message": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.popup"
+    },
+    "news": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.news"
     }
   }
 }

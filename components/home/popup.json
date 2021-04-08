@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_popups",
+  "info": {
+    "name": "popup",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "string"
+    },
+    "display": {
+      "type": "boolean"
+    }
+  }
+}

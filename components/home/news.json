@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_news",
+  "info": {
+    "name": "news",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "display": {
+      "type": "boolean"
+    }
+  }
+}
