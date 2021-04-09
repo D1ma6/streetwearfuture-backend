@@ -66,6 +66,9 @@
       "type": "component",
       "repeatable": false,
       "component": "home.news"
+    },
+    "product": {
+      "model": "product"
     }
   }
 }
