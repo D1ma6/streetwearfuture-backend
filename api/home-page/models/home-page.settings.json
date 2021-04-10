@@ -67,7 +67,13 @@
       "repeatable": false,
       "component": "home.news"
     },
-    "product": {
+    "firstItemDisplay": {
+      "model": "product"
+    },
+    "secondItemDisplay": {
+      "model": "product"
+    },
+    "thirdItemDisplay": {
       "model": "product"
     }
   }
