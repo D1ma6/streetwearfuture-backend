@@ -26,6 +26,25 @@
     },
     "shoeSize": {
       "type": "string"
+    },
+    "phoneSize": {
+      "type": "enumeration",
+      "enum": [
+        "iPhone06",
+        "iPhone07",
+        "iPhone08",
+        "iPhone0X",
+        "iPhone0XR",
+        "iPhone0XS",
+        "iPhone0XS0Max",
+        "iPhone011",
+        "iPhone0110Pro",
+        "iPhone011Pro0Max",
+        "iPhone012mini",
+        "iPhone012",
+        "iPhone0120Pro",
+        "iPhone012Pro0Max"
+      ]
     }
   }
 }
